@@ -1,0 +1,68 @@
+// Events
+
+/* 
+    An event is something that happens in the browser — like:
+      1. A user clicks a button
+      2. A user moves their mouse
+      3. A web page finishes loading
+      4. A key is pressed on the keyboard
+      When these things happen, the browser says,
+      "Hey, an event just occurred!"
+*/
+
+/*
+    Event = Something happening on the page (click, scroll, press key, etc.)
+    Event Listener = A way to tell JavaScript, "When this happens, do this."
+    Callback Function = The action you want to run.
+    Event Object = Info about what exactly happened.
+*/
+
+
+/* ++++ Events Propagations +++
+    Event propagation is how events travel through the HTML elements when something happens (like a click).
+
+   Exmaple: Imagine you click on a button inside a div inside the body:
+    <body>
+      <div>
+        <button>Click me!</button>
+      </div>
+    </body>
+
+  When you click the button, the event doesn’t just happen on the button 
+  
+  it travels through different layers (button → div → body → etc.).
+*/
+
+/* Approaches of the traversal or the phases
+      1. Bubbling 
+      2. Capturing 
+
+  1. Bubbling (Default behavior)
+      Bubbling = The event happens on the clicked element first, and then bubbles up to its parents.
+      Like this:
+      First: Button gets clicked 
+      Then: Div notices the click 
+      Then: Body notices the click 
+      And so on...
+      🔥 Always from innermost to outermost!
+
+  2. Capturing (Rarely used)
+      Capturing = The event starts from the top (document/body) and travels down to the clicked element.
+      Like this:
+      First: Body notices the click 
+      Then: Div notices it 
+      Finally: Button gets the click 
+      🔥 From outermost to innermost!
+
+   By default, event listeners use bubbling (unless you set 🔥🔥{capture: true}).
+    for bubbling : {bubbling: false}
+    for capturing : {capture: true}
+  
+*/
+
+/* preventDefault() and stopPropagation() 
+    preventDefault() is method used for prevent the default behavior
+    example: the default behavior of the form is , when we submit the form it directly report url or server but when we apply preventDefault method then its not works
+
+    stopPropagation() is method used for the , stop the propagation of the events , its stop both bubbling and capturing.
+*/

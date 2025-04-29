@@ -1,0 +1,33 @@
+++++++ Default JavaScript ++++++
+1. JavaScript is the synchronous language
+2. JavaScript is single threated language.
+3. in the js the code runn or execute one by one 
+4. execute on line of the code at a time
+5. each operation waits for the last one to complete before executing.
+
++++ Blocking code VS Non-Blocking code +++
+      |                        |
+      |                        |
+    block the flow      Does no block the 
+    of the program        flow of the program
+      |                         |
+      |                         |
+    read file sync            read file async
+
+
+🔥🔥🔥🔥 Fundamentals
+
+1. Async (Asynchronous) = "Don't wait. Do other things while you wait."
+2. Normally, JavaScript runs code line by line (synchronously).
+3.But some things — like fetching data from the internet — take time 
+4. If JavaScript waited for every slow task, your whole app would freeze.
+So instead, JavaScript says:
+"You go do your thing. I'll keep moving, and check back when you're ready."
+
+
+++++ Core Concepts of Async JS ++++
+
+Term | Simple Meaning
+Callbacks | Functions that run after something finishes.
+Promises | Objects that represent a future result (success or failure).
+async/await | Cleaner way to write promises like normal code.

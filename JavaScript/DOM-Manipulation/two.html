@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM-Manipulatios</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+  
+</body>
+<script>
+  const div = document.createElement('div'); // this {.createElement} used for creating an element in the DOM, using this we can create any element like div , section , h1 ... h6 etc.
+  console.log(div)
+  div.className = 'main'; // this {.className} is used to add the class in the elements. (not used only class used the className to add the certain class.) 
+  div.id = Math.floor(Math.random()*10) //// this {.id} is used to add the id in the elements.
+
+  /*the id and class is common attribute , but when we add some custom attribute used the {.setAttribute}*/
+  div.setAttribute("title","Generated-Title")
+
+  /* for styling that element used the {.style.req_style ==> style.padding , style.color}*/
+  div.style.backgroundColor = "green"
+  div.style.padding = "12px"
+  // div.tyle.borderradius = "5px"
+  // div.style.fontFamily= ""
+
+  // div.innerText = "Learning DOM Manipulations"
+
+  /* for adding some content / text in that tag or element used the {document.createTextNode} and then store it in variable and add the text in the element using {elem_name.appendChild(var_name)} */
+
+  const text = document.createTextNode("Learning DOM Manipulations")
+  div.appendChild(text)
+
+  /* to add that child in the body used the {document.body.appendChild}*/
+  document.body.appendChild(div)
+
+  // creating the heading using dom 
+  const h = document.createElement('h1')
+  console.log(h)
+  h.className = 'head';
+  h.id = 'refer';
+
+  h.style.color = "crimson"
+  h.style.backgroundColor = "#fff"
+  
+  const headings = document.createTextNode("My Web Pages..")
+
+  h.appendChild(headings)
+  document.body.appendChild(h)
+
+  // creating the div and add image in it using dom
+  const div1 = document.createElement('div');
+  div1.className = 'img'
+  div1.id = Math.round(Math.random()*10)
+
+  div1.style.height = "200px"
+  div1.style.width = "300px"
+  div1.padding = "10px"
+
+  const img = document.createTextNode("Mohammad Alim President at Coding Club PRPCEM")
+  // const img1 = document.cre
+
+  div1.appendChild(img)
+  document.body.appendChild(div1)
+
+</script>
+</html>

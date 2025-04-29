@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Async js</title>
+</head>
+<body>
+    <h1>Learning the Events in the javascript</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // first method for using setTimeout
+    /*
+      setTimeout(function(){
+        console.log("Mohammad Alim")
+      },2)  */
+      /*setTimeout is the method to set the time, it required the handler and time in number, usally time in mili second. 
+        ** handler is just a call back function but the function has no name.
+      */
+
+     const sayname = function(){
+        console.log("Alim")
+     }
+     setTimeout(sayname, 2000)
+
+     const changeText = function(){
+        document.querySelector('h1').innerHTML = "Js is best language"
+     }
+     
+      const changeme = setTimeout(changeText, 2000)
+
+     // to stop the event on the item we used the clearTimeout() method and it required the refernce of that element in which , we apply clearTimeout().
+     document.querySelector('#stop').addEventListener(function(){
+        clearTimeout(changeme)
+        console.log("Stopped!!!!!!!")
+     })
+</script>
+</html>

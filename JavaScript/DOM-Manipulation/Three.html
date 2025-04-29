@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulations</title>
+</head>
+<body style="color: #fff; background-color: #212121;">
+    <ul class="language">
+      <li>javascript</li>
+    </ul>
+</body>
+
+<script>
+    function addlanguage(langname){
+        const li = document.createElement('li')
+        li.innerHTML = `${langname}`
+
+        document.querySelector(".language").appendChild(li)
+    }
+
+    addlanguage("pthon")
+    addlanguage("java")
+    /*this above method is not optimize and in this way we need to traverse complete tree*/
+
+    // optimize way
+    function addoptilang(langname){
+        const li = document.createElement('li')
+        /*
+        const l = document.createTextNode(langname);
+        li.appendChild(l)
+        */
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector(".language").appendChild(li)
+    }
+    addoptilang("Cpp")
+    addoptilang("kotlin")
+
+
+    // Edit
+    const secondlang = document.querySelector("li:nth-child(2)")
+    console.log(secondlang);
+    // secondlang.innerHTML = "c-langauage"
+    const newli = document.createElement('li')
+    newli.textContent= "ruby"
+    secondlang.replaceWith(newli)
+
+    //Edit
+    // const firstlang = document.querySelector("li:nth-child(1)");
+    const firstlang = document.querySelector("li:first-child")
+    firstlang.outerHTML = '<li>Typescipt</li>'
+
+    //Remove
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
+</script>
+</html>

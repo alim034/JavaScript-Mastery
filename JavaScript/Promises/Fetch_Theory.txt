@@ -1,0 +1,11 @@
+🔥 Fetch method or fetch api
+
+✅ In JavaScript, fetch is a built-in function used to make network requests — like asking a server for some data (e.g., from an API).
+
+⚒️ How it works:
+
+1. fetch(url) starts the request.
+2. It returns a Promise — meaning the code keeps running while waiting for the server.
+3. .then(response => response.json()) — once the server responds, you usually want to parse the response (e.g., into JSON).
+4. .then(data => { }) — now you have your real data and can use it.
+5 .catch(error => { }) — if something goes wrong (like no internet, bad server, etc.), this catches the error.

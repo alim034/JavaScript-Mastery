@@ -1,0 +1,53 @@
+🔥🔥🔥🔥 Promise 🔥🔥🔥🔥
+🎯 The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+
+📚 A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+
+
+📝 A Promise is in one of these states:
+1. pending: initial state, neither fulfilled nor rejected.
+2. fulfilled: meaning that the operation was completed successfully.
+3. rejected: meaning that the operation failed.
+
+++++ Creating Promises ++++
+we can used the "new" keyword and Promise required the call back function , and required two parameters name as resolve and rejects
+
+
+// consumed promises 
+🔥we can used the .then() for consumed the promises..
+then() also required the call back functions.
+for connecting the .then() and created promise we need to call the function named as the resolve()..
+
+📝 data consumption , passing the parameters to the resolve and get data in the then function using the resolve and then.......
+
+we can pass the value or parameters in the resolve in the form of the object , and the , resolved it using .then().
+
+
+🔗 Chaining Promises 🔗 
+The promise methods then(), catch(), and finally() are used to associate further action with a promise that becomes settled. The then() method takes up to two arguments; the first argument is a callback function for the fulfilled case of the promise, and the second argument is a callback function for the rejected case. The catch() and finally() methods call then() internally and make error handling less verbose. For example, a catch() is really just a then() without passing the fulfillment handler. As these methods return promises, they can be chained. For example:
+
+++ the output of the previous methods , is gives a the input to the next function +++
+
+// there are the following main_methods
+1. then() 
+2. catch()
+3. finally()
+
+✅ then() method is used for the connecting the created promise or resolve it..
+✅ catch() method is used for resolving the error in the promises
+✅ finally() method is compulsary run. it tells some messages like the work is doneee
+
+
+
+👉 What is async in JavaScript?
+async is a keyword you add before a function to make it always return a Promise.
+✅ Even if you don't manually write a Promise, an async function automatically wraps your result into a Promise.
+✅ It allows you to use await inside the function to wait for asynchronous operations without using .then() and .catch() everywhere.
+
+🎯 Simple Explanation:
+1. async = makes a function asynchronous (it returns a Promise)
+2. await = waits for the Promise to resolve (without using .then())
+
+🧠 Small Notes:
+1. You can only use await inside an async function.
+2. async function always returns a Promise, even if you return simple values.

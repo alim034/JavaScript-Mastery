@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM-Manipulatios</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <div class="days">Monday</div>
+        <div class="days">Tuesday</div>
+        <div class="days">WednesDay</div>
+        <div class="days">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+   // console.log(parent);
+    //console.log(parent.children); // used for selecting or printing the all children of that parent. or moving towards the child using the parent..
+    //console.log(parent.children[1]);
+    //console.log(parent.children[1].innerHTML);
+
+    /*
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML)
+    }
+        */
+    parent.children[2].style.color = 'orange';
+
+    //console.log(parent.firstElementChild); // .firstElementChild is used to select the first child of the that parents.
+    //console.log(parent.lastElementChild); //lastElementChild is used to select the last child of the that parents.
+
+    /*the querySelector select only the first element of the nodelist , or element*/
+    const dayOne = document.querySelector('.days')
+    //console.log(dayOne)
+    //console.log(dayOne.parentElement); // this is used for , moving towards the parent through the child , or using the child. {.parentElement}
+    //console.log(dayOne.nextElementSibling); // this is used for moving the next Sibling from the current element.
+
+    console.log("NODES" , parent.childNodes); // this {.childNodes} give the all the child-node of that parent. this give the list in the form of the child node-list. and the nodelist consider each and every terms in the html , event it cosider the when we enter and move to next line. and all the text , comment. it work behind the scenece using by DOM manipulation. child-node give the list , like creating the tree of it. this required the query hence we need optimize javascript.
+    
+</script>
+</html>
