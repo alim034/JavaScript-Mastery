@@ -60,30 +60,30 @@ Try solving more problems by modifying or creating new files.
 ```
 
 ## 🗂️ Topics Covered
-Variables, Data Types, Operators
+-✅ Variables, Data Types, Operators
 
-Functions, Arrays, Objects
+-✅ Functions, Arrays, Objects
 
-DOM Manipulation & Events
+-✅ DOM Manipulation & Events
 
-Asynchronous JS (Promises, Async/Await)
+-✅ Asynchronous JS (Promises, Async/Await)
 
-Advanced: Closures, Hoisting, Scope
+-✅ Advanced: Closures, Hoisting, Scope
 
-````
+
 
 ## 💻 Environment Setup
-Browser – Recommended: Chrome, Firefox, Edge.
+- **Browser** – Recommended: Chrome, Firefox, Edge.
 
-Text Editor – Recommended: VS Code
+- **Text Editor** – Recommended: VS Code
 
-Live Server Extension (optional for HTML+JS testing)
+- **Live Server Extension** (optional for HTML+JS testing)
 
-Run JavaScript
+- **Run JavaScript**
 
-Open HTML file with script tag in browser
+  - Open HTML file with script tag in browser
 
-Use browser console
+  - Use browser console
 
-Or run .js file using Node.js
+   - Or run .js file using Node.js
 
