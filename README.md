@@ -46,18 +46,19 @@ This repository includes:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/alim034/javascript-from-beginner-to-master.git
-cd javascript-from-beginner-to-master
-Explore the folders
+git clone https://github.com/alim034/JavaScript-Mastery.git
+cd JavaScript-Mastery
+```
+2. Explore the folders
 Browse through directories by topic and difficulty.
 
-Run files in browser or IDE
+3. Run files in browser or IDE
 Open .html or .js files with VS Code or your preferred code editor.
 
-Practice & Modify
+4. Practice & Modify
 Try solving more problems by modifying or creating new files.
 
-```
+------
 
 ## 🗂️ Topics Covered
 ✅ Variables, Data Types, Operators
@@ -91,14 +92,16 @@ Try solving more problems by modifying or creating new files.
 -----
 
 ## 🧪 Mini Projects
+
 Projects built using only HTML, CSS, and JavaScript:
 
+| ✅ Project         | 📝 Description                                      |
+|-------------------|-----------------------------------------------------|
+| ✔️ Calculator      | Basic functional calculator                         |
+| ✔️ To-Do List      | Add, mark complete, and delete tasks                |
+| ✔️ Quiz App        | Interactive quiz with score tracking                |
+| ✔️ Text to Voice   | Uses Web Speech API to convert input text to speech |
 
-Project	Description
-✔️ Calculator	Basic functional calculator
-✔️ To-Do List	Add, mark complete, delete tasks
-✔️ Quiz App	Interactive quiz with score tracking
-✔️ Text to Voice	Uses Web Speech API to convert text to speech
 
 -----
 
@@ -124,6 +127,9 @@ git push origin feature-branch
 
 -----------
 ## 🚀 About
-JS-FROM-BEGINNER-TO-MASTER
-Crafted with ❤️ by Mohammad Alim
+
+**JS-FROM-BEGINNER-TO-MASTER**  
+Crafted with ❤️ by **Mohammad Alim**  
+
 Happy Coding! 🚀
+----
