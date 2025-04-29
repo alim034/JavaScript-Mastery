@@ -57,104 +57,31 @@ Open .html or .js files with VS Code or your preferred code editor.
 Practice & Modify
 Try solving more problems by modifying or creating new files.
 
-📂 Topics Covered
-🔹 Basics
+```
+🗂️ Topics Covered
 Variables, Data Types, Operators
 
-Conditionals (if-else, switch)
+Functions, Arrays, Objects
 
-Loops (for, while, do-while)
+DOM Manipulation & Events
 
-🔹 Functions
-Function declarations and expressions
+Asynchronous JS (Promises, Async/Await)
 
-Arrow functions
+Advanced: Closures, Hoisting, Scope
 
-Callback functions
-
-🔹 Objects & Arrays
-Arrays and Array methods
-
-Object literals and access
-
-Destructuring and spread/rest
-
-🔹 DOM Manipulation
-Document selectors (querySelector, getElementById)
-
-Event handling
-
-DOM traversal & manipulation
-
-🔹 Asynchronous JS
-setTimeout, setInterval
-
-Callbacks, Promises
-
-Async/Await
-
-🔹 Advanced Concepts
-Closures
-
-Hoisting
-
-Scope (var, let, const)
-
-Prototypes & Inheritance
 
 💻 Environment Setup
-Browser – Recommended: Chrome, Firefox, Edge
+Browser – Recommended: Chrome, Firefox, Edge.
 
 Text Editor – Recommended: VS Code
 
 Live Server Extension (optional for HTML+JS testing)
 
 Run JavaScript
-Open .html file with <script> tag in browser
 
-Use browser developer console
+Open HTML file with script tag in browser
+
+Use browser console
 
 Or run .js file using Node.js
 
-🧪 Mini Projects
-Projects built using only HTML, CSS, and JavaScript:
-
-
-Project	Description
-✔️ Calculator	Basic functional calculator
-✔️ To-Do List	Add, mark complete, delete tasks
-✔️ Quiz App	Interactive quiz with score tracking
-✔️ Text to Voice	Uses Web Speech API to convert text to speech
-🤝 Contributing
-Contributions are welcome!
-To contribute:
-
-Fork the repository
-
-Create a new branch:
-
-bash
-Copy
-Edit
-git checkout -b feature-branch
-Commit your changes:
-
-bash
-Copy
-Edit
-git commit -m "Add: new topic or project"
-Push the changes:
-
-bash
-Copy
-Edit
-git push origin feature-branch
-Open a Pull Request
-
-📝 License
-This project is licensed under the MIT License.
-You are free to use, share, and modify the content with attribution.
-
-🚀 About
-JS-FROM-BEGINNER-TO-MASTER
-Crafted with ❤️ by Mohammad Alim
