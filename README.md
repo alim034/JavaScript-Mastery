@@ -58,7 +58,8 @@ Practice & Modify
 Try solving more problems by modifying or creating new files.
 
 ```
-🗂️ Topics Covered
+
+## 🗂️ Topics Covered
 Variables, Data Types, Operators
 
 Functions, Arrays, Objects
@@ -69,8 +70,9 @@ Asynchronous JS (Promises, Async/Await)
 
 Advanced: Closures, Hoisting, Scope
 
+````
 
-💻 Environment Setup
+## 💻 Environment Setup
 Browser – Recommended: Chrome, Firefox, Edge.
 
 Text Editor – Recommended: VS Code
