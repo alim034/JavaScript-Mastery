@@ -60,16 +60,17 @@ Try solving more problems by modifying or creating new files.
 ```
 
 ## 🗂️ Topics Covered
--✅ Variables, Data Types, Operators
+✅ Variables, Data Types, Operators
 
--✅ Functions, Arrays, Objects
+✅ Functions, Arrays, Objects
 
--✅ DOM Manipulation & Events
+✅ DOM Manipulation & Events
 
--✅ Asynchronous JS (Promises, Async/Await)
+✅ Asynchronous JS (Promises, Async/Await)
 
--✅ Advanced: Closures, Hoisting, Scope
+✅ Advanced: Closures, Hoisting, Scope
 
+---
 
 
 ## 💻 Environment Setup
@@ -87,3 +88,42 @@ Try solving more problems by modifying or creating new files.
 
    - Or run .js file using Node.js
 
+-----
+
+## 🧪 Mini Projects
+Projects built using only HTML, CSS, and JavaScript:
+
+
+Project	Description
+✔️ Calculator	Basic functional calculator
+✔️ To-Do List	Add, mark complete, delete tasks
+✔️ Quiz App	Interactive quiz with score tracking
+✔️ Text to Voice	Uses Web Speech API to convert text to speech
+
+-----
+
+## 🤝 Contributing
+Contributions are welcome!
+To contribute:
+
+1. Fork the repository
+
+2. Create a new branch:
+```
+git checkout -b feature-branch
+```
+3. Commit your changes:
+```
+git commit -m "Add: new topic or project"
+```
+4. Push the changes:
+```
+git push origin feature-branch
+```
+5. Open a Pull Request
+
+-----------
+## 🚀 About
+JS-FROM-BEGINNER-TO-MASTER
+Crafted with ❤️ by Mohammad Alim
+Happy Coding! 🚀
